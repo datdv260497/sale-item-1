@@ -1,101 +1,63 @@
 <!DOCTYPE html>
-<html lang="vi" class="scroll-smooth">
+<html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bao Lì Xì Tết Bính Ngọ 2026 - Đẹp & May Mắn</title>
-  <!-- Tailwind CSS Play CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'tet-red': '#c8102e',
-            'tet-dark-red': '#8B0000',
-            'tet-gold': '#ffd700',
-          }
-        }
-      }
+  <title>Chúc Mừng Năm Mới</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #ff8c00, #c8102e, #8b0000); /* cam → đỏ tươi → đỏ đậm */
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
-  </script>
+
+    .container {
+      max-width: 90%;
+    }
+
+    h1 {
+      font-size: 6.5rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      color: #ffffff;             /* trắng sáng để nổi bật trên nền cam-đỏ */
+      text-shadow: 
+        0 0 15px rgba(0,0,0,0.7),
+        0 4px 12px rgba(0,0,0,0.8); /* shadow đen đậm giúp chữ rõ nét */
+      letter-spacing: 4px;
+    }
+
+    .year {
+      font-size: 11rem;
+      font-weight: 900;
+      color: #ffeb3b;             /* vàng sáng nổi bật */
+      text-shadow: 
+        0 0 25px rgba(0,0,0,0.8),
+        0 6px 18px rgba(0,0,0,0.9); /* shadow mạnh hơn để chống mờ */
+      letter-spacing: 5px;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 5rem; }
+      .year { font-size: 8rem; }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 4rem; }
+      .year { font-size: 6.5rem; }
+    }
+  </style>
 </head>
-<body class="bg-gradient-to-b from-tet-red to-tet-dark-red text-white min-h-screen bg-fixed">
+<body>
 
-  <div class="container mx-auto px-4 py-12 md:py-16 max-w-5xl">
-    <!-- Header -->
-    <div class="text-center mb-12">
-      <h1 class="text-4xl md:text-5xl font-bold text-tet-gold drop-shadow-2xl">
-        Bao Lì Xì Tết Bính Ngọ 2026
-      </h1>
-      <p class="text-xl md:text-2xl mt-4 text-white/90 font-medium drop-shadow-md">
-        Chọn mẫu đẹp – Trao gửi tài lộc, may mắn ngập tràn năm mới!
-      </p>
-    </div>
-
-    <!-- Gallery 4 sản phẩm -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-
-      <!-- Item 1 -->
-      <div class="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-4 border-2 border-tet-gold/30">
-        <img 
-          src="https://i.etsystatic.com/32259832/r/il/cc4c5d/5401060854/il_fullxfull.5401060854_mws9.jpg" 
-          alt="Bao lì xì hoa văn cổ điển đỏ vàng"
-          class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div class="p-6 text-center">
-          <a href="LINK_MUA" 
-             class="inline-block bg-tet-gold text-tet-red font-bold text-lg px-8 py-4 rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-            MUA NGAY
-          </a>
-        </div>
-      </div>
-
-      <!-- Item 2 -->
-      <div class="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-4 border-2 border-tet-gold/30">
-        <img 
-          src="https://m.media-amazon.com/images/I/813p20HaP0L.jpg" 
-          alt="Bao lì xì lớn đỏ truyền thống Tết"
-          class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div class="p-6 text-center">
-          <a href="LINK_MUA" 
-             class="inline-block bg-tet-gold text-tet-red font-bold text-lg px-8 py-4 rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-            MUA NGAY
-          </a>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-4 border-2 border-tet-gold/30">
-        <img 
-          src="https://i.ebayimg.com/images/g/xIoAAOSwTiplinJ2/s-l1200.jpg" 
-          alt="Bao lì xì đỏ vàng cổ điển may mắn"
-          class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div class="p-6 text-center">
-          <a href="LINK_MUA" 
-             class="inline-block bg-tet-gold text-tet-red font-bold text-lg px-8 py-4 rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-            MUA NGAY
-          </a>
-        </div>
-      </div>
-
-      <!-- Item 4 -->
-      <div class="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-4 border-2 border-tet-gold/30">
-        <img 
-          src="https://i.etsystatic.com/11222296/r/il/bdcc3d/6470992895/il_fullxfull.6470992895_65kt.jpg" 
-          alt="Bao lì xì đỏ hiện đại cá nhân hóa"
-          class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-        />
-        <div class="p-6 text-center">
-          <a href="LINK_MUA" 
-             class="inline-block bg-tet-gold text-tet-red font-bold text-lg px-8 py-4 rounded-full hover:bg-yellow-300 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-            MUA NGAY
-          </a>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <h1>CHÚC MỪNG<br>NĂM MỚI</h1>
+    <div class="year">2026</div>
   </div>
 
 </body>
